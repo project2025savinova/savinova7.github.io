@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .search-form {
+        grid-template-columns: 1fr;
+    }
+    
+    .departments-grid {
+        grid-template-columns: 1fr;
+    }
+}

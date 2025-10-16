@@ -1,0 +1,18 @@
+/* Основные стили для пастельно-розовой темы */
+:root {
+    --primary-pink: #ffb6c1;
+    --secondary-pink: #d94b7e;
+    --light-pink: #ffe6e6;
+    --dark-text: #5a3d5c;
+    --white: #ffffff;
+}
+
+body {
+    background: linear-gradient(135deg, var(--light-pink) 0%, #ffd6e7 100%);
+    color: var(--dark-text);
+}
+
+.header {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+}
